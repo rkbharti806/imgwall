@@ -1,0 +1,54 @@
+body,html {
+	margin: 0px;
+	padding: 0px;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(78, 212, 255), rgb(183, 193, 122)) repeat scroll 0% 0%;;
+}
+
+  img {
+	width: 450px;
+	height: 300px;
+	margin: 11px;
+	transition: all 0.5s;
+}
+ 
+  .container {
+	 	margin: 0px;
+	 	padding: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		position: relative;
+    	height: auto; 
+    	align-content: space-between; 
+
+ }
+h1 {
+	position: relative;
+    align-items: center; 
+	background-color: rgba(245, 218, 98, 0.555);
+	color: aliceblue ;
+	font-family:'Courier New', Courier, monospace, fantasy ;
+	font-size: 2.5em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+	transition:0.5s ;
+	transform-origin:left ;
+}
+
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+h1:hover {
+		transform:scale(1.1);
+}
