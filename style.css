@@ -24,8 +24,7 @@ body,html {
  }
 h1 {
 	position: relative;
-    align-items: center; 
-	justify-content: center;
+	justify-items:center;
 	background-color: rgba(245, 218, 98, 0.555);
 	color: aliceblue;
 	font-family:'Courier New', Courier, monospace, fantasy ;
