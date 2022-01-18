@@ -5,15 +5,14 @@ body,html {
 }
 
   img {
-	width: 450px;
-	height: 300px;
-	margin: 11px;
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	padding-bottom: 10px;
 	transition: all 0.5s;
 }
  
   .container {
-	 	margin: 0px;
-	 	padding: 0px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -39,7 +38,7 @@ h1 {
 	box-shadow: 4px 4px 5px #888888;
 	margin-top: 10px;
 	transition:0.5s ;
-	transform-origin:left ;
+	transform-origin:center;
 }
 
 
